@@ -1,0 +1,19 @@
+# image_recog.txt
+
+Develop and train a model to recognize the content of JPG files in the folder O:\Bilder\1-D7100\2015-06-23-Bonmont
+For each image and iteration collect CPU time, elapsed time and number of I/Os
+
+Display each image being examined along with the interpretation of that image 
+and solicit percentage accuracy from 0 to 100 from the terminal, 100% being the most accurate, 0% being
+completely false interpretation. Each iteration has to achieve at least 50% accuracy prior to 
+continuing.
+
+store the results of each image and iteration in a Duck DB database called images.db
+
+The cost of a CPU second is EUR 1.0, the cost of an I/O is EUR 0.1 
+and elapsed time seconds cost EUR 0.001  of 
+
+provide a summary for each image interpreted and display the summary on the terminal 
+along with storing the data in the DuckDB database.
+
+Finally, graphically display the major statistics for each image
