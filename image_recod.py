@@ -1,5 +1,7 @@
 # image_recog.py
 # V14
+# 17:02 2025-10-24 as it does not appear to be working properly
+#
 """
         self.conn.execute("set memory_limit = '12GB'")
         self.conn.execute("set max_memory = '12GB'")
